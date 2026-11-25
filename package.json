@@ -1,0 +1,26 @@
+{
+  "name": "ats-live-jobs-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js CLI to query live Greenhouse, Ashby, and Lever job board JSON APIs (0% ghost jobs) with 45+ day stuck-role aging",
+  "type": "module",
+  "bin": {
+    "ats-jobs": "./bin/cli.mjs"
+  },
+  "main": "./src/index.mjs",
+  "scripts": {
+    "test": "node --test test/ats.test.mjs"
+  },
+  "keywords": [
+    "ats",
+    "greenhouse",
+    "ashby",
+    "lever",
+    "jobs-api",
+    "recruiting",
+    "hiring-intent"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
